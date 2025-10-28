@@ -32,7 +32,9 @@
 ## 演示
 ### 查看资源占用（连接到远程服务）
 
-[![远程服务](https://github.com/user-attachments/assets/c7e667ad-4ad2-41b6-8457-c34e14aa1752)](https://github.com/user-attachments/assets/c7e667ad-4ad2-41b6-8457-c34e14aa1752)
+
+
+[![远程服务](https://github.com/user-attachments/assets/4b8260b3-b5c7-4ba5-bafa-a0a177703efa)](https://github.com/user-attachments/assets/4b8260b3-b5c7-4ba5-bafa-a0a177703efa)
 ---
 
 ## ✨ 核心特性
