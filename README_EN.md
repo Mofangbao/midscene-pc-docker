@@ -137,6 +137,19 @@ supervisorctl restart midscene-pc
 cd /home/headless && npx midscene-pc
 ```
 
+### 🆙 Midscene-pc Service Update
+
+```bash
+# Update to the latest version inside the container (temporary update)
+npx midscene-pc@latest
+
+# Restart the service after updating
+supervisorctl restart midscene-pc
+```
+
+> [!IMPORTANT]
+> ♻️ Permanent updates require rebuilding the image.
+
 > [!IMPORTANT]
 > 🕐 **Startup Notice**: After startup, it takes about 10 seconds to initialize the desktop. If the VNC connection shows a black screen, please wait a moment.
 
@@ -215,6 +228,7 @@ VNC_PASS_RO=midscene_pc
 | 🍎 **macOS** | Manual drawing functionality not supported when creating midscene-pc devices | Fullscreen and fixed area work normally |
 | 🍎 **macOS** | VNC connection cannot automatically adapt to Retina display | Does not affect actual automation operations |
 | 🐳 **Docker** | Currently only supports docker run startup | Docker Compose not supported |
+| 💾 **Data Persistence** | Full data persistence is not supported; you can mount external directories into the container | Use `-v` to mount a host directory to preserve data |
 
 ---
 

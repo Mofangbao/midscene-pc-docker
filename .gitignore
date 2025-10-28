@@ -58,3 +58,4 @@ Thumbs.db
 
 # Docker volumes and containers data
 volumes/
+*.deb

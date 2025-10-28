@@ -105,6 +105,19 @@ supervisorctl restart midscene-pc
 npx midscene-pc
 ```
 
+### 🆙 Midscene-pc 服务更新
+
+```bash
+# 在容器内更新到最新版本（临时更新）
+npx midscene-pc@latest
+
+# 更新后重启服务
+supervisorctl restart midscene-pc
+```
+
+> [!IMPORTANT]
+> ♻️ 永久更新需要重新编译镜像。
+
 > [!IMPORTANT]
 > 🕐 **启动提示**: 启动后需要等待约 10 秒钟初始化桌面，如果 VNC 连接出现黑屏，请稍等片刻。
 
@@ -173,6 +186,7 @@ VNC_PASS_RO=midscene_pc
 | 🍎 **macOS** | 创建 midscene-pc 设备时不支持手动圈画功能 | 全屏和固定区域功能正常 |
 | 🍎 **macOS** | VNC 连接后无法自动适配 Retina 显示 | 不影响自动化操作功能 |
 | 🐳 **Docker** | 暂时只支持 docker run 启动 | 不支持 docker-compose |
+| 💾 **数据持久化** | 目前不支持完整的数据持久化，但可通过挂载外部目录到容器中使用 | 使用 `-v` 挂载外部目录以保留数据 |
 
 ---
 
