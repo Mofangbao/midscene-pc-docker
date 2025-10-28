@@ -29,6 +29,15 @@ This project is based on the original project and pre-installs the following com
 
 ---
 
+## 演示
+### 查看资源占用（连接到远程服务）
+
+
+
+[![远程服务](https://github.com/user-attachments/assets/4b8260b3-b5c7-4ba5-bafa-a0a177703efa)](https://github.com/user-attachments/assets/4b8260b3-b5c7-4ba5-bafa-a0a177703efa)
+
+---
+
 ## ✨ Key Features
 
 | Feature | Description |
